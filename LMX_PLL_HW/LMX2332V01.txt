@@ -1,0 +1,25 @@
+Pin	Name	Desc
+1	Vcc		2.7 to +5.5 Vin
+2	Vp		RF Charge Pump Voltage, must be >= Vcc
+3	D0RF	RF Charge Pump Output for RF VCO
+4	GND
+5	FinRF	Prescaler RF Input
+6	/FinRF	Complementary Prescaler input. Bypass to GND
+7	GND
+8	OSCin	Reference Oscillator in Vcc/2 Threshold
+9	GND
+10	FoLD	Multiplexed Mode Output
+11	Clock	Serial Data Clock
+12	Data	Serial Data MSB First
+13	LE		Load Enable
+14	GND
+15	/FinIF	Complementary IF Prescaler Inpug. Bypass to GND w/ C
+16	FinIF	IF Prescaler Input
+17	GND
+18	DoIF	IF Charge Pump for IF VCO
+19	Vp2		IF Charge Pump Voltage, >=Vcc
+20	Vcc		2.7 to +5.5 Vin
+
+
+Google Spreadsheet w/ Design Calculations
+https://docs.google.com/spreadsheets/d/1Z5lqAI-RaViUdmWjin61VpYF3CtZXQyEoMSP2vAN8Oc/edit?usp=sharing

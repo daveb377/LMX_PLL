@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "LMX2332V01-rescue")(type "Legacy")(uri "${KIPRJMOD}/LMX2332V01-rescue.lib")(options "")(descr ""))
+  (lib (name "DB_KiCad")(type "KiCad")(uri "${KICAD_USER_LIBRARY}/DB_KiCad.kicad_sym")(options "")(descr ""))
+  (lib (name "LMX2332V01")(type "KiCad")(uri "${KIPRJMOD}/LMX_PLL_HW.pretty/LMX2332V01.kicad_sym")(options "")(descr ""))
 )

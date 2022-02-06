@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>E:\Docs\Dropbox\Projects\LMX_PLL\LMX_PLL_HW\LMX2332V01.kicad_sch</source>
-    <date>06/11/2021 21:59:47</date>
-    <tool>Eeschema (5.99.0-11753-g5574682d44)</tool>
+    <date>27/01/2022 21:27:34</date>
+    <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -24,9 +24,27 @@
     </sheet>
   </design>
   <components>
+    <comp ref="3V0">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fcfc704-9ca2-4a96-8c8b-6f4d800549a9</tstamps>
+    </comp>
+    <comp ref="5V0">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d61968cd-af8d-4b41-bbdd-40fa13b09330</tstamps>
+    </comp>
     <comp ref="C1">
       <value>120pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
@@ -168,6 +186,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060c62d50</tstamps>
     </comp>
+    <comp ref="CLK1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060af4be0</tstamps>
+    </comp>
     <comp ref="D1">
       <value>LED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
@@ -186,6 +213,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060bcafde</tstamps>
     </comp>
+    <comp ref="D3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060afec60</tstamps>
+    </comp>
     <comp ref="FB1">
       <value>Ferrite_Bead_Small</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
@@ -194,6 +230,24 @@
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060a9f0c4</tstamps>
+    </comp>
+    <comp ref="FoLD1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae590e</tstamps>
+    </comp>
+    <comp ref="GND1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060c57f85</tstamps>
     </comp>
     <comp ref="H1">
       <value>MountingHole</value>
@@ -247,8 +301,8 @@
       <tstamps>00000000-0000-0000-0000-000060f3e1ce</tstamps>
     </comp>
     <comp ref="J2">
-      <value>Conn_01x04_Male</value>
-      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <value>Serial I/O</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
@@ -263,6 +317,15 @@
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060a9cd0a</tstamps>
+    </comp>
+    <comp ref="LE1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060afbd47</tstamps>
     </comp>
     <comp ref="R1">
       <value>0</value>
@@ -444,68 +507,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060f94213</tstamps>
     </comp>
-    <comp ref="TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060afbd47</tstamps>
-    </comp>
-    <comp ref="TP2">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060af4be0</tstamps>
-    </comp>
-    <comp ref="TP3">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060ae590e</tstamps>
-    </comp>
-    <comp ref="TP4">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060afec60</tstamps>
-    </comp>
-    <comp ref="TP5">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060c57f85</tstamps>
-    </comp>
-    <comp ref="TP6">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3f7f137e-adc8-44a0-8d35-0df86aa7b61b</tstamps>
-    </comp>
     <comp ref="U1">
-      <value>Z-CommV440</value>
-      <footprint>LMX_PLL_HW:Z-CommVCO</footprint>
-      <libsource lib="DB_KiCad" part="Z-CommV440" description=""/>
+      <value>Z-CommV440V2</value>
+      <footprint>LMX_PLL_HW:ZCommVCO</footprint>
+      <libsource lib="DB_KiCad" part="Z-CommV440V2" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f6404e82-cd14-46d2-a9f9-084efe4089fa</tstamps>
+      <tstamps>f0ba4ead-0063-4361-acbe-8c6ba470d2d3</tstamps>
     </comp>
     <comp ref="U2">
       <value>LMX2332</value>
@@ -544,6 +553,15 @@
       <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060bf0bb7</tstamps>
+    </comp>
+    <comp ref="VCont1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LMX2332V01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f7f137e-adc8-44a0-8d35-0df86aa7b61b</tstamps>
     </comp>
   </components>
   <libparts>
@@ -673,16 +691,16 @@
         <pin num="8" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="DB_KiCad" part="Z-CommV440">
+    <libpart lib="DB_KiCad" part="Z-CommV440V2">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">Z-CommV440</field>
+        <field name="Value">Z-CommV440V2</field>
       </fields>
       <pins>
         <pin num="1" name="Vt" type="input"/>
         <pin num="2" name="RFOut" type="output"/>
-        <pin num="3" name="Vcc" type="output"/>
-        <pin num="GND" name="4" type="power_in"/>
+        <pin num="3" name="Vcc" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -804,19 +822,19 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>E:\Docs\Dropbox\GitDir\kicad-symbols/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="DB_KiCad">
       <uri>E:\Docs\Dropbox\PartsLibrary/DB_KiCad.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>E:\Docs\Dropbox\GitDir\kicad-symbols/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>E:\Docs\Dropbox\GitDir\kicad-symbols/Mechanical.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>E:\Docs\Dropbox\GitDir\kicad-symbols/Regulator_Linear.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -838,11 +856,12 @@
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="GND1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J1" pin="2" pintype="passive"/>
       <node ref="J1" pin="3" pintype="passive"/>
       <node ref="J1" pin="4" pintype="passive"/>
       <node ref="J1" pin="5" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
@@ -854,8 +873,7 @@
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="GND" pinfunction="4" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="14" pinfunction="GND" pintype="input"/>
       <node ref="U2" pin="17" pinfunction="GND" pintype="input"/>
       <node ref="U2" pin="4" pinfunction="GND" pintype="input"/>
@@ -865,26 +883,17 @@
       <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="3" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U2" pin="3" pinfunction="DoRF" pintype="input"/>
+    <net code="3" name="Net-(3V0-Pad1)">
+      <node ref="3V0" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="4" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="Vt" pintype="input"/>
-    </net>
-    <net code="6" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="6" pinfunction="/Fin_RF" pintype="input"/>
-    </net>
-    <net code="7" name="Net-(C6-Pad1)">
+    <net code="4" name="Net-(5V0-Pad1)">
+      <node ref="5V0" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
@@ -892,25 +901,36 @@
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="8" name="Net-(C6-Pad2)">
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="DoRF" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vt" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="/Fin_RF" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C6-Pad2)">
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="9" name="Net-(C8-Pad2)">
+    <net code="10" name="Net-(C8-Pad2)">
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="FB" pintype="input"/>
-    </net>
-    <net code="10" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="VOUT" pintype="power_out"/>
     </net>
     <net code="11" name="Net-(C11-Pad1)">
       <node ref="C11" pin="1" pintype="passive"/>
@@ -928,7 +948,7 @@
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="Vcc" pintype="output"/>
+      <node ref="U1" pin="3" pinfunction="Vcc" pintype="power_in"/>
       <node ref="U2" pin="1" pinfunction="Vcc" pintype="input"/>
       <node ref="U2" pin="19" pinfunction="Vp2" pintype="input"/>
       <node ref="U2" pin="2" pinfunction="Vp1" pintype="input"/>
@@ -943,75 +963,75 @@
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="RF_Out" pintype="output"/>
     </net>
-    <net code="15" name="Net-(D1-Pad1)">
+    <net code="15" name="Net-(CLK1-Pad1)">
+      <node ref="CLK1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="Clock" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D2-Pad1)">
+    <net code="17" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(FB1-Pad2)">
+    <net code="18" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="Data" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(FB1-Pad2)">
       <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(J1-Pad1)">
+    <net code="20" name="Net-(FoLD1-Pad1)">
+      <node ref="FoLD1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="FoLD" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(J2-Pad1)">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="22" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="LE1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="LE" pintype="input"/>
     </net>
-    <net code="20" name="Net-(J2-Pad2)">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="12" pinfunction="Data" pintype="input"/>
-    </net>
-    <net code="21" name="Net-(J2-Pad3)">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="Clock" pintype="input"/>
-    </net>
-    <net code="22" name="Net-(R3-Pad1)">
+    <net code="23" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(R3-Pad2)">
+    <net code="24" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="RFOut" pintype="output"/>
     </net>
-    <net code="24" name="Net-(R6-Pad1)">
+    <net code="25" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="/FinIF" pintype="input"/>
     </net>
-    <net code="25" name="Net-(R7-Pad1)">
+    <net code="26" name="Net-(R7-Pad1)">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="FinIF" pintype="input"/>
     </net>
-    <net code="26" name="Net-(R8-Pad1)">
+    <net code="27" name="Net-(R8-Pad1)">
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="DoIF" pintype="input"/>
     </net>
-    <net code="27" name="Net-(R13-Pad1)">
+    <net code="28" name="Net-(R13-Pad1)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R13-Pad2)">
+    <net code="29" name="Net-(R13-Pad2)">
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="Fin_RF" pintype="input"/>
     </net>
-    <net code="29" name="Net-(TP3-Pad1)">
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="10" pinfunction="FoLD" pintype="input"/>
-    </net>
-    <net code="30" name="Net-(TP6-Pad1)">
-      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="30" name="Net-(U3-Pad5)">
       <node ref="U3" pin="5" pinfunction="VCont" pintype="input"/>
+      <node ref="VCont1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
   </nets>
 </export>

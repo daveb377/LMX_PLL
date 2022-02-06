@@ -1,56 +1,106 @@
-"Source:","E:\Docs\Dropbox\Projects\LMX_PLL\LMX_PLL_HW\LMX2332V01.kicad_sch"
-"Date:","06/11/2021 21:59:47"
-"Tool:","Eeschema (5.99.0-11753-g5574682d44)"
-"Component Count:","51"
-"Ref","Value","Footprint","Datasheet","Manufacturer","Vendor"
-"C1","120pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C2","820pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C3","DNP","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C4","1000pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C5","10uF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C6","0.01uF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C7","10u","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C8","0.01uF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C9","10u","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C10","10u","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C11","10u","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C12","0.01uF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C13","0.01uF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C14","100pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C15","100pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"C16","1000pF","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"D1","LED","LED_SMD:LED_0805_2012Metric","~","",""
-"D2","LED","LED_SMD:LED_0805_2012Metric","~","",""
-"FB1","Ferrite_Bead_Small","Capacitors_SMD:C_0805_HandSoldering","~","",""
-"H1","MountingHole","Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad","~","",""
-"H2","MountingHole","Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad","~","",""
-"H3","MountingHole","Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad","~","",""
-"H4","MountingHole","Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad","~","",""
-"J1","142-0701-201","LMX_PLL_HW:JOHNSON_142-0701-201","","",""
-"J2","Conn_01x04_Male","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","~","",""
-"J3","Screw_Terminal_01x02","TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal","~","",""
-"R1","0","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R2","53k6","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R3","16.5","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R4","16.5","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R5","16.5","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R6","10k","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R7","10k","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R8","10k","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R9","16k","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R10","4k7","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R11","11k","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R12","1k5","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R13","0","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R14","DNP","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R15","DNP","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R16","200","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R17","2k8","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R18","800","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R19","0","Resistors_SMD:R_0805_HandSoldering","~","",""
-"R20","0","Resistors_SMD:R_0805_HandSoldering","~","",""
-"U1","Z-CommV440","LMX_PLL_HW:Z-CommVCO","","",""
-"U2","LMX2332","Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm","","",""
-"U3","ToyocomTCXO","LMX_PLL_HW:ToyocomTCXO","","",""
-"U4","TPS784-Q1","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tps763.pdf","",""
-"U5","TPS784-Q1","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/tps763.pdf","",""
+Source:,E:\Docs\Dropbox\Projects\LMX_PLL\LMX_PLL_HW\LMX2332V01.kicad_sch,,,,,,,
+Date:,27/01/2022 21:27:34,,,,,,,
+Tool:,Eeschema (6.0.1),,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,59,,,,,,,
+,,,,,,,,
+Individual Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MANUFACTURER,STANDARD
+,,3V0,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,5V0,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,C1,120pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,,
+,,C2,820pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C3,DNP,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C4,1000pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C5,10uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C6,0.01uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C7,10u,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C8,0.01uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C9,10u,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C10,10u,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C11,10u,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C12,0.01uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C13,0.01uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C14,100pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C15,100pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,C16,1000pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,CLK1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,D1,LED,Device:LED,LED_SMD:LED_0805_2012Metric,~,,
+,,D2,LED,Device:LED,LED_SMD:LED_0805_2012Metric,~,,
+,,D3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,FB1,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Capacitors_SMD:C_0805_HandSoldering,~,,
+,,FoLD1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,GND1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,H1,MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad,~,,
+,,H2,MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad,~,,
+,,H3,MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad,~,,
+,,H4,MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad,~,,
+,,J1,142-0701-201,DB_KiCad:142-0701-201,LMX_PLL_HW:JOHNSON_142-0701-201,,Johnson,Manufacturer Recommendation
+,,J2,Serial I/O,Connector:Conn_01x04_Male,Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,~,,
+,,J3,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,,
+,,LE1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,R1,0,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R2,53k6,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R3,16.5,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R4,16.5,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R5,16.5,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R6,10k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R7,10k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R8,10k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R9,16k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R10,4k7,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R11,11k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R12,1k5,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R13,0,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R14,DNP,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R15,DNP,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R16,200,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R17,2k8,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R18,800,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R19,0,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,R20,0,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+,,U1,Z-CommV440V2,DB_KiCad:Z-CommV440V2,LMX_PLL_HW:ZCommVCO,,,
+,,U2,LMX2332,DB_KiCad:LMX2332,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,,,
+,,U3,ToyocomTCXO,DB_KiCad:ToyocomTCXO,LMX_PLL_HW:ToyocomTCXO,,,
+,,U4,TPS784-Q1,:TPS76301_1,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tps763.pdf,,
+,,U5,TPS784-Q1,Regulator_Linear:TPS76301,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tps763.pdf,,
+,,VCont1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Collated Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MANUFACTURER,STANDARD
+1,8,"3V0, 5V0, CLK1, D3, FoLD1, GND1, LE1, VCont1",TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~,,
+2,1,C1,120pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~,,
+3,1,C2,820pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+4,1,C3,DNP,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+5,2,"C4, C16",1000pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+6,1,C5,10uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+7,4,"C6, C8, C12, C13",0.01uF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+8,4,"C7, C9, C10, C11",10u,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+9,2,"C14, C15",100pF,Device:C,Capacitors_SMD:C_0805_HandSoldering,~,,
+10,2,"D1, D2",LED,Device:LED,LED_SMD:LED_0805_2012Metric,~,,
+11,1,FB1,Ferrite_Bead_Small,Device:Ferrite_Bead_Small,Capacitors_SMD:C_0805_HandSoldering,~,,
+12,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad,~,,
+13,1,J1,142-0701-201,DB_KiCad:142-0701-201,LMX_PLL_HW:JOHNSON_142-0701-201,,Johnson,Manufacturer Recommendation
+14,1,J2,Serial I/O,Connector:Conn_01x04_Male,Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,~,,
+15,1,J3,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~,,
+16,4,"R1, R13, R19, R20",0,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+17,1,R2,53k6,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+18,3,"R3, R4, R5",16.5,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+19,3,"R6, R7, R8",10k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+20,1,R9,16k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+21,1,R10,4k7,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+22,1,R11,11k,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+23,1,R12,1k5,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+24,2,"R14, R15",DNP,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+25,1,R16,200,Device:R_US,Resistors_SMD:R_0805_HandSoldering,~,,
+26,1,R17,2k8,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+27,1,R18,800,Device:R_Small_US,Resistors_SMD:R_0805_HandSoldering,~,,
+28,1,U1,Z-CommV440V2,DB_KiCad:Z-CommV440V2,LMX_PLL_HW:ZCommVCO,,,
+29,1,U2,LMX2332,DB_KiCad:LMX2332,Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm,,,
+30,1,U3,ToyocomTCXO,DB_KiCad:ToyocomTCXO,LMX_PLL_HW:ToyocomTCXO,,,
+31,1,U4,TPS784-Q1,:TPS76301_1,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tps763.pdf,,
+32,1,U5,TPS784-Q1,Regulator_Linear:TPS76301,Package_TO_SOT_SMD:SOT-23-5,http://www.ti.com/lit/ds/symlink/tps763.pdf,,

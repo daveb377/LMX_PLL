@@ -62,7 +62,7 @@ from icecream import ic
 
 # 16.8 MHz TCXO
 
-Fref=16.e6
+Fref=16.8e6
 
 ChannelSpacing=25e3
 Fmin = 380e6

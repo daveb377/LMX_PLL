@@ -2058,8 +2058,8 @@
     (uuid fcb38455-408a-4ae6-9937-1513e7bbbacc)
   )
 
-  (text "[] Add larger DNP in parallel w/ C1\n[] Add SMA monitor port at U3 RF Out\n"
-    (at 96.52 240.03 0)
+  (text "[] Add larger DNP in parallel w/ C1\n[] Add SMA monitor port at U3 RF Out\n[] Footpring for TCXO needs correcting. Pin 5/8 are swapped\n[] Spin LMX/VCO to improve routing of Fin/DoRF\n"
+    (at 96.52 243.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df4a2b84-7bd5-4ab8-8fa2-d21a6d5ba96f)
   )
